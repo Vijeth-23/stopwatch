@@ -1,0 +1,36 @@
+body{
+    background-image:url("sw1.jpg");
+    background-size:cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:100vw;
+    height:100vh;
+}
+.wrapper{
+    background-color:beige;
+    text-align:center;
+    color:black;
+    padding:20px;
+    border-radius:40px;
+    letter-spacing:4px;
+}
+button{
+    border-radius:50%;
+    background-color:red;
+    color:black;
+    border:groove 5px rgb(244, 69, 69);
+    cursor: pointer;
+    text-decoration:none;
+    font-size:40px;
+    font-family:cursive;
+    padding:20px;
+}
+button:hover{
+    background-color:rgb(240, 68, 68);
+    color:black;
+}
+h3,p{
+    text-shadow: 4px 5px 6px rgb(20, 8, 8);
+    font-size:40px;
+}
